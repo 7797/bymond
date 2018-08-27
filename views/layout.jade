@@ -1,0 +1,69 @@
+//- doctype html
+//- html(lang='en')
+//-   head
+//-     title Welcome
+//-     //- link(rel='stylesheet', href='stylesheets/style.css')
+//-    link(rel='stylesheet', href='stylesheets/bootstrap.css')
+//-   body
+//-     .navbar.navbar-default(role = 'navigation')
+//-     .container
+//-     .navbar-header
+//-      button.navbar-toggle(
+//-        type = 'button',data-
+//-        toggle = 'collapse',data-target = '.navbar-collapse'
+//-      )
+//- span.sr-only Toggle navigation
+//-     span.icon-bar
+//-     span.icon-bar
+//-     span.icon-bar
+//-     a.navbar-brand(href='#') project name
+//-     .navbar-collapse-collapse
+//-     ul.nav.navbar-nav
+//-     li
+//-     a (href='/') Home
+//-      li
+//-     a (href='/') Link
+//-      li
+//-     a (href='/') Link
+//-     .container
+//-     block content
+//-     script (src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+//-     script(src='javascripts/bootstrap.js')
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    style.
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: #333;
+      }
+      .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+      }
+  body
+    .topnav
+      a.active(href='/') Home
+      a(href='/users/register') Register
+      a(href='/users/login') Login
+      a(href='/users/logout') Logout
+    div(style='padding-left:16px')
+      //- h2 Top Navigation Example
+      //- p Some content..
